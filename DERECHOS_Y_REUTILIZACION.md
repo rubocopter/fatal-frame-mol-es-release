@@ -4,7 +4,7 @@
 
 ## Alcance
 
-Esta reserva se aplica exclusivamente a las aportaciones originales del autor a este proyecto: su trabajo de traducción, sus adaptaciones gráficas en la medida en que le correspondan derechos sobre ellas, la documentación y el diseño vectorial original del banner.
+Esta reserva se aplica exclusivamente a las aportaciones originales del autor a este proyecto: su trabajo de traducción, sus adaptaciones gráficas en la medida en que le correspondan derechos sobre ellas y la documentación.
 
 No atribuye al autor derechos sobre el juego, sus textos de origen, sus personajes, sus imágenes, sus marcas, sus recursos, las fuentes de terceros ni cualquier otro material ajeno. Todos ellos siguen perteneciendo a sus respectivos titulares. Las adaptaciones no alteran la titularidad de los materiales de partida.
 
@@ -14,13 +14,13 @@ Se permite utilizar la distribución oficial del parche para instalar la traducc
 
 Esta autorización de uso personal no concede una licencia general para copiar, publicar, modificar, redistribuir, vender o incorporar a otros proyectos las aportaciones propias del autor. Para esos usos se necesita su autorización expresa previa. Dar crédito al autor no sustituye esa autorización.
 
-El acceso a este repositorio privado o a una prerelease no concede permiso para compartir sus archivos con otras personas ni para publicarlos en otro lugar. No se ofrece una licencia de código abierto sobre las aportaciones propias.
+La disponibilidad del repositorio y de sus releases no concede permiso para redistribuir sus archivos ni para publicarlos en otro lugar. No se ofrece una licencia de código abierto sobre las aportaciones propias.
 
 ## Materiales de terceros
 
 Las dependencias y los componentes de terceros se rigen por sus respectivas licencias, que no quedan sustituidas ni restringidas por este documento. Consulta **`THIRD_PARTY_NOTICES.txt`**, distribuido junto al instalador en GitHub Releases, para sus avisos y condiciones.
 
-Los textos de la traducción parten del inglés original del juego, no de una traducción de terceros. El instalador contiene los 103 recursos modificados para aplicar la traducción por sustitución en la copia del usuario. No incluye recursos originales sin modificar, el ejecutable del juego, partidas guardadas ni copias de seguridad originales. La inclusión de esos recursos modificados no atribuye al autor derechos sobre los materiales del juego que contienen.
+Los textos de la traducción parten del inglés original del juego, no de una traducción de terceros. El instalador contiene los recursos modificados para aplicar la traducción por sustitución en la copia del usuario. No incluye el ejecutable del juego, partidas guardadas ni copias de seguridad originales. La inclusión de esos recursos modificados no atribuye al autor derechos sobre los materiales del juego que contienen.
 
 ## Consultas y permisos
 
