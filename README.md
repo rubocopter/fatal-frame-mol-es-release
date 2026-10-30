@@ -5,7 +5,7 @@
 # Fatal Frame: La máscara del eclipse lunar — Traducción al castellano
 
 <p align="center">
-  <img src="https://img.shields.io/badge/versión-v1.0.0-c4a66a?style=flat-square" alt="Versión v1.0.0">
+  <img src="https://img.shields.io/badge/version-v1.0.0-c4a66a?style=flat-square" alt="Versión v1.0.0">
   <img src="https://img.shields.io/badge/plataforma-Windows-0078D6?style=flat-square" alt="Windows">
 </p>
 
