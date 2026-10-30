@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Compatibilidad y problemas conocidos
     url: https://github.com/rubocopter/fatal-frame-mol-es-release#compatibilidad-y-problemas
-    about: Consulta los requisitos y las limitaciones de esta versión de prueba antes de informar de un problema.
+    about: Consulta los requisitos y las limitaciones de la traducción antes de informar de un problema.
   - name: Instalación y restauración
     url: https://github.com/rubocopter/fatal-frame-mol-es-release#instalación-rápida
     about: Pasos para instalar el parche, comprobar la carpeta del juego y restaurar una copia de seguridad.

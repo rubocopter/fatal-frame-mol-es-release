@@ -1,6 +1,6 @@
 # Historial de cambios
 
-## v0.1.0 — Versión de prueba
+## v1.0.0 — Primera versión pública
 
 Primera versión de la traducción al castellano para **Fatal Frame: Mask of the Lunar Eclipse** en PC (Windows).
 
@@ -11,4 +11,4 @@ Primera versión de la traducción al castellano para **Fatal Frame: Mask of the
 
 **Pendiente:** revisión de la historia completa en contexto. La compatibilidad con futuras actualizaciones del juego no está garantizada.
 
-Descarga y notas: [v0.1.0](https://github.com/rubocopter/fatal-frame-mol-es-release/releases/tag/v0.1.0).
+Descarga y notas: [v1.0.0](https://github.com/rubocopter/fatal-frame-mol-es-release/releases/tag/v1.0.0).
