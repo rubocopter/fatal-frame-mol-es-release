@@ -5,12 +5,12 @@
 # Fatal Frame: La máscara del eclipse lunar — Traducción al castellano
 
 <p align="center">
-  <img src="https://img.shields.io/badge/estado-v1.0.0%20pendiente-c4a66a?style=flat-square" alt="Publicación v1.0.0 pendiente">
+  <img src="https://img.shields.io/badge/versión-v1.0.0-c4a66a?style=flat-square" alt="Versión v1.0.0">
   <img src="https://img.shields.io/badge/plataforma-Windows-0078D6?style=flat-square" alt="Windows">
 </p>
 
 <p align="center">
-  <a href="https://github.com/rubocopter/fatal-frame-mol-es-release/releases"><strong>Ver versiones y descargas</strong></a>
+  <a href="https://github.com/rubocopter/fatal-frame-mol-es-release/releases/tag/v1.0.0"><strong>Descargar traducción v1.0.0</strong></a>
   · <a href="https://github.com/rubocopter/fatal-frame-mol-es-release/issues/new/choose">Informar de un problema</a>
   · <a href="CHANGELOG.md">Historial de cambios</a>
 </p>
@@ -21,13 +21,13 @@
 
 Traducción no oficial al castellano de **Fatal Frame: Mask of the Lunar Eclipse** para PC, con textos y elementos gráficos adaptados a partir de la versión inglesa del juego.
 
-**La publicación v1.0.0 está pendiente.** Por ahora solo está disponible la versión de prueba anterior en [GitHub Releases](https://github.com/rubocopter/fatal-frame-mol-es-release/releases). Los menús se han comprobado, aunque todavía está pendiente revisar la historia completa jugando de principio a fin. Puedes comunicar erratas o problemas desde la pestaña [Issues](https://github.com/rubocopter/fatal-frame-mol-es-release/issues).
+Los menús se han comprobado, aunque todavía está pendiente revisar la historia completa jugando de principio a fin. Puedes comunicar erratas o problemas desde la pestaña [Issues](https://github.com/rubocopter/fatal-frame-mol-es-release/issues).
 
 ## Instalación rápida
 
 Necesitas una copia del juego para **PC (Windows)**.
 
-1. Descarga `FATAL-FRAME-MOL-ES-Setup.exe` desde la [versión publicada en GitHub Releases](https://github.com/rubocopter/fatal-frame-mol-es-release/releases).
+1. Descarga `FATAL-FRAME-MOL-ES-Setup.exe` desde la [release v1.0.0](https://github.com/rubocopter/fatal-frame-mol-es-release/releases/tag/v1.0.0).
 2. Cierra el juego, ejecuta el instalador y selecciona la carpeta que contiene `FATAL_FRAME_MOL.exe`.
 3. Pulsa **Comprobar** y revisa el resultado.
 4. Pulsa **Instalar / actualizar** y espera a que termine. Después, inicia el juego normalmente.
