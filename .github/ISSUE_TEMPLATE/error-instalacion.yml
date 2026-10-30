@@ -1,0 +1,62 @@
+name: Error de instalación o restauración
+description: Fallos al comprobar, instalar, actualizar o restaurar el parche.
+title: "[Instalación] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        El instalador sustituye 103 recursos, incluidos los cambios de otros mods, y guarda una copia por instalación de su estado previo exacto. Restaurar copia recupera el estado anterior a la última instalación, incluidos los mods. No exige una base HD ni hashes originales para instalar. Mantén el juego cerrado.
+        Si la restauración detecta cambios posteriores al parche, incluye el aviso para poder revisarlos.
+        No adjuntes archivos del juego ni datos personales; oculta el nombre de usuario de las rutas o capturas si es necesario.
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: sistema
+    attributes:
+      label: Versión de Windows
+      placeholder: Versión y compilación de Windows
+    validations:
+      required: true
+  - type: dropdown
+    id: accion
+    attributes:
+      label: Acción que falla
+      options:
+        - Abrir el instalador
+        - Seleccionar carpeta
+        - Comprobar
+        - Instalar / actualizar
+        - Restaurar copia
+    validations:
+      required: true
+  - type: textarea
+    id: comprobacion
+    attributes:
+      label: Resultado de Comprobar
+      description: Copia el resultado o explica por qué no has podido ejecutar la comprobación.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos y resultado
+      description: Explica cómo reproducirlo, qué esperabas y qué ocurrió. Indica si era la primera instalación o una actualización.
+    validations:
+      required: true
+  - type: textarea
+    id: mensaje
+    attributes:
+      label: Mensaje exacto o captura
+      description: Pega el error completo y, si ayuda, adjunta una captura sin datos personales.
+    validations:
+      required: true
+  - type: textarea
+    id: copia
+    attributes:
+      label: Copia de seguridad y contexto
+      description: Indica si existe .fatal-frame-es-installer, si el juego estaba cerrado y si aplicaste otros mods antes o después del parche. No adjuntes la copia de seguridad.

@@ -1,0 +1,49 @@
+name: Compatibilidad de la instalación
+description: Problemas con la estructura de recursos, actualizaciones del juego u otros mods.
+title: "[Compatibilidad] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        v0.1.0 sustituye 103 recursos de la versión de PC, incluidos los cambios de otros mods. No exige un paquete HD ni hashes originales para instalar. Una actualización del juego puede necesitar un parche nuevo.
+        No adjuntes archivos del juego ni copias de seguridad. Comparte el diagnóstico y elimina los datos personales de las rutas.
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: edicion
+    attributes:
+      label: Edición y revisión del juego
+      description: Indica plataforma de distribución, revisión si la conoces e idioma de origen de tu instalación.
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Otros mods y cambios de recursos
+      description: Indica qué mods utilizas y si los aplicaste antes o después del parche. La instalación sobrescribe los recursos de destino aunque contengan mods.
+    validations:
+      required: true
+  - type: textarea
+    id: resultado
+    attributes:
+      label: Resultado completo de Comprobar
+      description: Copia el diagnóstico del instalador o adjunta una captura sin datos personales.
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema observado y archivos afectados
+      description: Describe el fallo y los pasos para reproducirlo. Indica rutas de recursos si aparecen en el diagnóstico; no adjuntes los archivos.
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional
+      description: Indica si antes se había aplicado este parche, si existe .fatal-frame-es-installer y si se había restaurado el estado previo.

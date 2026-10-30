@@ -1,0 +1,53 @@
+name: Error de traducción o gráficos
+description: Textos incorrectos, recortes o problemas visuales dentro del juego.
+title: "[Traducción] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Los menús han sido validados por el autor; la revisión completa de la historia sigue pendiente.
+        «Artbook» y sus gráficos permanecen en inglés por decisión del autor; se conservan los FMSG del Artbook ya traducidos.
+        Adjunta solo capturas pertinentes, sin archivos del juego ni partidas.
+  - type: input
+    id: version
+    attributes:
+      label: Versión del parche
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Traducción u ortografía
+        - Texto cortado o fuera de sitio
+        - Gráfico o tutorial
+        - Texto en inglés fuera del Artbook
+        - Otro problema de texto o imagen
+    validations:
+      required: true
+  - type: textarea
+    id: ubicacion
+    attributes:
+      label: Dónde aparece
+      description: Indica capítulo, personaje, documento, menú o tutorial y los pasos para llegar a ese punto. Puedes avisar si hay spoilers.
+    validations:
+      required: true
+  - type: textarea
+    id: observado
+    attributes:
+      label: Texto o problema observado
+      description: Transcribe el texto tal como aparece o describe el defecto visual.
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Corrección propuesta
+      description: Si tienes una propuesta, incluye el motivo o el contexto que la respalda.
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura y contexto adicional
+      description: Adjunta una captura del problema si puedes. Para recortes o gráficos, indica la resolución y el formato de pantalla.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Compatibilidad y notas de v0.1.0
+    url: https://github.com/rubocopter/fatal-frame-mol-es-release/blob/main/docs/releases/v0.1.0.md#compatibilidad
+    about: Consulta la sustitución de recursos, la restauración y las limitaciones de esta prerelease privada antes de informar de un problema.
+  - name: Instalación y restauración
+    url: https://github.com/rubocopter/fatal-frame-mol-es-release#instalación
+    about: Pasos para comprobar la carpeta del juego, instalar el parche y restaurar la copia de seguridad.
